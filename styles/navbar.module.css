@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 3px 3px rgba(0,0,0,0.1);
+    align-content: center;   
+    position: static; 
+}
+.link{
+    display: flex;
+    margin-left: 50px;
+}
+
+.list{
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.listlink{
+    color: #142575;
+}
+
+.button{
+    width: 117px;
+    height: 46px;
+    background: #D0322E;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: white;
+    margin-right: 5px;
+    /* float: right; */
+}
+
+.cart{
+    margin-right: -400px;
+}

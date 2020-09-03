@@ -1,0 +1,73 @@
+.top{
+    width:600px;
+    height: 255px;
+    /* background: blue; */
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    color: #142575;
+}
+
+.toph2{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.btndiv{
+    text-align: center;
+    margin: 30px;
+}
+
+.shopbtn{
+    width: 118px;
+    height: 50px;
+    background: #142575;
+    color: white;
+    border-radius: 35px;
+    border: none;
+}
+.contactbtn{
+    width: 156px;
+    height: 50px;
+    color: #455880;
+    background: #ffff;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+
+.mission{
+    width: 1241px;
+    height: 255px;
+    text-align: center;
+    color: #142575;
+    margin: auto;
+    margin-top: 100px;
+}
+.missionh2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.missionp{
+    font-size: 20px;
+}
+
+.product{
+    text-align: center;
+    width: 1241px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.productcard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.productcards{
+    background: #FAFAFA;
+    width: 270px;
+    height: 436px;
+}
+.red{
+    color: #D0322E;
+}
