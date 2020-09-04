@@ -1,12 +1,13 @@
 .container{
-    width: 350px;
-    height: 550px;
-    background: linear-gradient(to bottom, #a4aae2 50% , #142575 50% );
+    /* width: 350px;
+    height: 550px; */
+    background: linear-gradient(to bottom, white 50% , #142575 50% );
     position: relative;
-    top: 30px;
+    /* top: 30px; */
     margin: auto;
     color:  #142575 ;
     text-align: center;
+    height: 100vh;
     
 }
 .formcontainer{
@@ -21,10 +22,24 @@
     padding-top: 50px;
     border: none;
     border-radius: 10px;
+    box-shadow: 0px 3px 10px 10px rgba(0,0,0,0.1);
 }
 
 .form{
     /* margin-top: 50px; */
+}
+.red{
+    color: #D0322E;
+}
+.blue{
+    color: #142575 ;
+}
+
+.h5{
+    color: #455880;
+    font-size: 10px;
+    position: relative;
+    top: 30px;
 }
 
 .label{
@@ -33,15 +48,21 @@
     color:#D0322E;
     font-weight: 600;
 }
+.labelemail{
+    text-align: initial;
+    margin-left: -225px;
+    color:#D0322E;
+    font-weight: 600;
+}
 .formh1{
     position: relative;
-    top: 30px;
+    top: 50px;
 }
 
 .input{
     width: 270px;
     height: 45px;
-    border: 1px solid rgb(233, 233, 233);
+    border: 1px solid rgb(206, 206, 206);
     border-radius: 5px;
     outline: none;
     
@@ -56,4 +77,18 @@
     border-radius: 5px;
     color: white;
     font-family: 'Poppins', sans-serif;;
+}
+
+.signup{
+    color: #D0322E;
+    position: relative;
+    top: 171px;
+    width: 320px;
+    height: 10vh;
+    margin: auto;
+    background: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-top: 20px;
 }

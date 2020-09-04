@@ -29,8 +29,10 @@ export default function Navigation (){
                 </Link>
             </ul>
 
-            <img className={styles.cart} src="cart.png" alt="cart"/>
-            <button className={styles.button}>Sign In</button>
+            <img className={styles.cart} src="/cart.png" alt="cart"/>
+            
+                <Link href="/user/auth/login"><a><button className={styles.button}>Sign In</button></a></Link>
+            
 
         </nav>
     )

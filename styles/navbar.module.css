@@ -41,9 +41,17 @@
     border-radius: 40px;
     color: white;
     margin-right: 5px;
+    font-family:  'Poppins', sans-serif;
+    cursor: pointer;
     /* float: right; */
 }
 
 .cart{
     margin-right: -400px;
+    position: relative;
+    top: 15px;
+    right: 70px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
