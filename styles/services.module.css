@@ -1,0 +1,47 @@
+.servicestop{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.servicestoph1{
+    color: #142575;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.servicestopp{
+    font-size: 18px;
+    color: #455880;
+}
+.servicesmidcontainer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.servicesmid{
+    display: flex;
+    width: 800px;
+    margin: auto;
+
+    /* border: 1px solid pink; */
+    /* background-color: linear-gradient(to right, 50% #455880, 50% #ffffff); */
+}
+
+.servicesmidleft{
+    width: 400px;
+    background: #142575;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    /* float: left; */
+}
+.servicesmidright{
+    width: 400px;
+    background: white;
+    color: #142575;
+    font-size: 15px;
+    text-align: center;
+    /* float: right; */
+}

@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Navigation from '../components/nav-bar'
-import Firstpage from '../components/homepage'
+// import Firstpage from '../components/homepage'
 import Footer from '../components/footer'
-import fetch from 'isomorphic-unfetch'
 // import styles from '../styles/Home.module.css'
 
-export default function Home() {
- 
+export default function Contact() {
   return (
     <div>
       <Head>
@@ -17,12 +15,8 @@ export default function Home() {
       <Navigation />
 
       
-
-      <Firstpage />
+      
       <Footer />
     </div>
   )
-};
-
-
-  
+}

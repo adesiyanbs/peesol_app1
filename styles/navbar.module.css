@@ -6,6 +6,13 @@
     align-content: center;   
     position: static; 
 }
+.img{
+    width: 100px;
+    height: 30px;
+    left: 10px;
+    position: relative;
+    top: 10px;
+}
 .link{
     display: flex;
     margin-left: 50px;
@@ -19,6 +26,10 @@
 
 .listlink{
     color: #142575;
+    cursor: pointer;
+}
+.listlink:hover{
+    color: #D0322E;
 }
 
 .button{

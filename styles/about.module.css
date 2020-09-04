@@ -1,0 +1,102 @@
+.profile{
+    /* background: blue; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.profileh1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #142575;
+}
+.profilep{
+    font-size: 18px;
+    color: #455880;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.overviewh2{
+    font-size: 30px;
+    color: #142575;
+}
+
+.img{
+    width: 600px;
+    position: relative;
+    top: 80px;
+    right:50px ;
+}
+.red{
+    color: #D0322E;
+}
+
+.overviewleft{
+    width: 700px;
+
+}
+.overviewright{
+    width: 500px;
+    /* background: blue; */
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.after{
+    width: 80%;
+    height: 2px;
+    background: rgb(224, 224, 224);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+.producth2{
+    font-size: 20px;
+}
+.productleft{
+    width: 600px;
+    margin-left: 200px;
+}
+.productright{
+    width: 500px;
+    margin-right: 200px;
+}
+
+.provision{
+    text-align: center;
+    color: #142575;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.partner{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.partnerh2{
+    font-size: 30px;
+    color: #142575;
+}
+.partnerimg{
+    filter: grayscale(100%);
+    width: 100px;
+    margin-right: 50px;
+}
