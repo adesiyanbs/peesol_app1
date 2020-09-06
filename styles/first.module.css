@@ -71,3 +71,48 @@
 .red{
     color: #D0322E;
 }
+
+@media only screen 
+and (min-device-width: 360px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .top{
+        width: 360px;
+    }
+
+    .btndiv{
+        margin-top: 120px;
+        width: 300px;
+        /* margin: auto; */
+        /* background: blue; */
+        margin-left: 60px;
+    }
+
+    .mission{
+        width: 360px;
+        position: relative;
+        /* left: 20px; */
+    }
+
+    .product{
+        margin-top: 360px;
+        width: 360px;
+    }
+    .productcard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .productcards{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 415px)
+and (max-device-width: 1400px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .btndiv{
+        margin-left: initial;
+    }
+}

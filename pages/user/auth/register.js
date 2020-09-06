@@ -1,13 +1,15 @@
 // import fetch from 'isomorphic-unfetch'
 import { useState } from "react";
-import styles from "../../../styles/loginform.module.css";
+import styles from "../../../styles/register.module.css";
 import Head from 'next/head'
 import Link from 'next/link'
-
 export default function Login() {
         const [user, setUser] = useState({
+          firstName:"",
+          lastName:"",
           email: "",
-          password: ""
+          password: "",
+          phoneNumber:"" 
         });
         const handleChange = (e) => setUser({ 
             ...user, [e.target.name]: e.target.value
@@ -51,7 +53,7 @@ export default function Login() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
       <h1 className={styles.formh1}>
-        Login / <Link href="/user/auth/register"><a><b className={styles.red}>Register</b></a></Link> 
+       <Link href="/user/auth/login"><a>Login</a></Link> / <b className={styles.red}>Register</b>
       </h1>
       <div className={styles.formcontainer}>
         <form
@@ -61,6 +63,42 @@ export default function Login() {
           className={styles.form}
         >
           <div>
+            <label className={styles.label}>Firstname</label> <br></br>
+                <input
+                className={styles.input}
+                placeholder="firstname"
+                name="firstName"
+                onChange={handleChange}
+                required
+                type="text"
+            />
+            </div>
+            <br />
+            <div>
+            <label className={styles.label}>lastname</label> <br></br>
+            <input
+              className={styles.input}
+              placeholder="lastname"
+              name="lastName"
+              onChange={handleChange}
+              required
+              type="text"
+            />
+           </div>
+           <br />
+           <div>
+            <label className={styles.labelphone}>Phonenumber</label> <br></br>
+                <input
+                className={styles.input}
+                placeholder="phonenumber"
+                name="phoneNumber"
+                onChange={handleChange}
+                required
+                type="number"
+                />
+            </div>
+            <br />
+            <div>
             <label className={styles.labelemail}>Email</label> <br></br>
             <input
               className={styles.input}
@@ -70,7 +108,7 @@ export default function Login() {
               required
               type="email"
             />
-          </div>
+            </div>
           <br />
           <div>
             <label className={styles.label}>Password</label>
@@ -86,11 +124,11 @@ export default function Login() {
           </div>
           <button className={styles.button}>Log In</button>
         </form>
-        <h5 className={styles.h5}>Forgot Password? Click Here</h5>
+        {/* <h5 className={styles.h5}>Forgot Password? Click Here</h5> */}
       </div>
       <div>
         <h4 className={styles.signup}>
-          Don't have an account? <Link href="/user/auth/register"><a><b className={styles.blue}>Register</b></a></Link>
+           Have an account? <Link href="/user/auth/login"><a><b className={styles.blue}>Login</b></a></Link>
         </h4>
       </div>
     </div>

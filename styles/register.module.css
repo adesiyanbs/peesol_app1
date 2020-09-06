@@ -7,13 +7,13 @@
     margin: auto;
     color:  #142575 ;
     text-align: center;
-    height: 100vh;
+    height: 130vh;
     
 }
 .formcontainer{
     background: white;
     width: 320px;
-    height: 350px;
+    height: 550px;
     color: black;
     text-align: center;
     position: relative;
@@ -51,6 +51,12 @@
 .labelemail{
     text-align: initial;
     margin-left: -225px;
+    color:#D0322E;
+    font-weight: 600;
+}
+.labelphone{
+    text-align: initial;
+    margin-left: -160px;
     color:#D0322E;
     font-weight: 600;
 }

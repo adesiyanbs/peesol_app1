@@ -19,7 +19,7 @@ export default function Footer(){
                             <img className={styles.img} src="/main-logo.png" alt=""/>
                         </div>
                         <ul>
-                            <h3>Pages</h3>
+                            <h3 className={styles.h3}>Pages</h3>
                             <Link href="/"><li className={styles.footersecondlist}><a>Home</a></li></Link>
                             <Link href="/about"><li className={styles.footersecondlist}><a>About Us</a></li></Link>
                             <Link href="/services"><li className={styles.footersecondlist}><a>Services</a></li></Link>

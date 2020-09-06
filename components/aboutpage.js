@@ -24,7 +24,7 @@ export default function Aboutpage() {
           <h2 className={styles.overviewh2}>
             Company <b className={styles.red}>Overview</b>
           </h2>
-          <p>
+          <p className={styles.overviewp}>
             Schon Peesol Nigeria ltd was founded by seasoned Business Executives
             and experienced Electrical Engineers with proven records of superior
             service delivery in the energy sector of our economy. Our team are
