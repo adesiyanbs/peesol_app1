@@ -78,6 +78,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 
     .top{
         width: 360px;
+        /* overflow: hidden; */
     }
 
     .btndiv{
@@ -106,6 +107,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin: auto;
         margin-bottom: 30px;
     }
+    
 }
 
 @media only screen 
