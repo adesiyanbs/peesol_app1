@@ -112,9 +112,12 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 @media only screen 
 and (min-device-width: 415px)
-and (max-device-width: 1400px)
+/* and (max-device-width: 1400px) */
 and (-webkit-min-device-pixel-ratio: 2){
     .btndiv{
-        margin-left: initial;
+        width: 375px;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 130px;
     }
 }

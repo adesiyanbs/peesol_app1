@@ -19,12 +19,13 @@
 .servicesmidcontainer{
     margin-top: 100px;
     margin-bottom: 30px;
+    
 }
 .servicesmid{
     display: flex;
     width: 800px;
     margin: auto;
-
+    /* border: 1px solid blue; */
     /* border: 1px solid pink; */
     /* background-color: linear-gradient(to right, 50% #455880, 50% #ffffff); */
 }
@@ -87,6 +88,19 @@ and (-webkit-min-device-pixel-ratio: 2){
     .servicesmidright{
         width: 375px;
         /* margin: auto; */
+    }
+
+}
+
+@media only screen 
+and (min-device-width: 417px)
+/* and (max-device-width: 414px) */
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .servicesmid{
+        /* border: 1px solid blue; */
+        width: 400px;
+        margin: auto;
     }
 
 }
