@@ -50,16 +50,13 @@
 and (min-device-width: 360px)
 and (-webkit-min-device-pixel-ratio: 2){
 
-    .servicesmid{
+    /* .servicesmid{
         display: block;
-    }
-    .servicesmidleft{
-        width: 360px;
-        /* margin: auto; */
-    }
-    .servicesmidright{
-        width: 360px;
-        /* margin: auto; */
+    } */
+    .servicesmid{
+        /* border: 1px solid blue; */
+        width: 400px;
+        margin: auto;
     }
 
 }
@@ -67,27 +64,20 @@ and (-webkit-min-device-pixel-ratio: 2){
 and (min-device-width: 411px)
 /* and (max-device-width: 1400px) */
 and (-webkit-min-device-pixel-ratio: 2){
-    .servicesmidleft{
-        width: 411px;
-        /* margin: auto; */
+    .servicesmid{
+        /* border: 1px solid blue; */
+        width: 400px;
+        margin: auto;
     }
-    .servicesmidright{
-        width: 411px;
-        /* margin: auto; */
-    }
-
 }
 @media only screen 
 and (min-device-width: 375px)
 /* and (max-device-width: 1400px) */
 and (-webkit-min-device-pixel-ratio: 2){
-    .servicesmidleft{
-        width: 375px;
-        /* margin: auto; */
-    }
-    .servicesmidright{
-        width: 375px;
-        /* margin: auto; */
+    .servicesmid{
+        /* border: 1px solid blue; */
+        width: 400px;
+        margin: auto;
     }
 
 }

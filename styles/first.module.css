@@ -86,11 +86,10 @@ and (-webkit-min-device-pixel-ratio: 2){
     }
 
     .btndiv{
-        margin-top: 120px;
-        width: 300px;
-        /* margin: auto; */
-        /* background: blue; */
-        margin-left: 60px;
+        width: 375px;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 130px;
     }
 
     .mission{
