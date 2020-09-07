@@ -1,4 +1,5 @@
 import styles from "../styles/first.module.css";
+import Link from 'next/link'
 
 export default function Firstpage() {
   return (
@@ -14,8 +15,8 @@ export default function Firstpage() {
           </p>
         </div>
         <div className={styles.btndiv}>
-          <button className={styles.shopbtn}>Shop</button>
-          <button className={styles.contactbtn}>Contact Us</button>
+          <Link href="/product"><a><button className={styles.shopbtn}>Product</button></a></Link>
+          <Link href="/contact"><a><button className={styles.contactbtn}>Contact Us</button></a></Link>
         </div>
 
         {/* mission section */}

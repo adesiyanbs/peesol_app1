@@ -23,11 +23,12 @@ export default function Footer(){
                             <Link href="/"><li className={styles.footersecondlist}><a>Home</a></li></Link>
                             <Link href="/about"><li className={styles.footersecondlist}><a>About Us</a></li></Link>
                             <Link href="/services"><li className={styles.footersecondlist}><a>Services</a></li></Link>
+                            <Link href="/product"><li className={styles.footersecondlist}><a>Products</a></li></Link>
                             <Link href="/contact"><li className={styles.footersecondlist}><a>Contact Us</a></li></Link>
                         </ul>
-                        <div>
+                        {/* <div>
                             <h3>Resources</h3>
-                        </div>
+                        </div> */}
                     </div>
                     <h4 className={styles.footertext}>Copyright © 2020 Schon-pessol</h4>
                 </div>

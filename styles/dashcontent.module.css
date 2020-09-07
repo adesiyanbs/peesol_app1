@@ -60,7 +60,7 @@
 }
 @media only screen 
 and (min-device-width: 360px)
-and (max-device-width: 414px)
+and (max-device-width: 921px)
 and (-webkit-min-device-pixel-ratio: 2){
     .cards{
         display: grid;
