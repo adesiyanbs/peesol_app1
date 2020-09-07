@@ -78,7 +78,7 @@
 @media only screen 
 and (min-device-width:320px)
 and (max-device-width: 359px)
-/* and (-webkit-min-device-pixel-ratio: 2) */
+and (-webkit-min-device-pixel-ratio: 2)
 {
  .top{
      width: 310px;
@@ -108,8 +108,8 @@ and (max-device-width: 359px)
 }
 }
 @media only screen 
-and (min-device-width: 360px)
-and (-webkit-min-device-pixel-ratio: 2)
+and (max-device-width: 1025px)
+/* and (-webkit-min-device-pixel-ratio: 2) */
 {
 
     .top{
@@ -144,4 +144,5 @@ and (-webkit-min-device-pixel-ratio: 2)
     }
     
 }
+
 
