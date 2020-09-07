@@ -100,7 +100,33 @@
     width: 100px;
     margin-right: 50px;
 }
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 359px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .overview{
+        display: block;
+        width: 310px;
+        justify-content: space-around;
+        font-size: 12px;
+        margin-top: 100px;
+        /* border: 1px solid red; */
+        /* text-align: center; */
+        /* flex-direction: column; */
+        margin: auto;
+    }
+    .img{
+        width: 315px;
+        margin: auto;
+        position: relative;
+        left:0px;
+}
+.overviewp{
+    width: 310px;
+    /* margin-left: px; */
+}
 
+}
 @media only screen 
 and (min-device-width: 360px)
 and (-webkit-min-device-pixel-ratio: 2){
@@ -111,7 +137,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         justify-content: space-around;
         font-size: 12px;
         margin-top: 100px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         /* text-align: center; */
         flex-direction: column;
         margin: auto;

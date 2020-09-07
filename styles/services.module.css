@@ -47,6 +47,24 @@
     /* float: right; */
 }
 @media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 359px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .servicesmid{
+        /* border: 1px solid blue; */
+        width: 320px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .servicesmidleft{
+        width: 320px;
+    }
+    .servicesmidright{
+        width: 310px;
+    }
+
+}
+@media only screen 
 and (min-device-width: 360px)
 and (-webkit-min-device-pixel-ratio: 2){
 

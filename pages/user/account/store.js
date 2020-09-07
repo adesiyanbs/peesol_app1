@@ -3,7 +3,84 @@ import styles from "../../../styles/dash.module.css";
 import Storepage from "../../../components/storepage";
 import Head from 'next/head'
 
-export default function Dashboardpage() {
+export default function Store() {
+  const products = [
+
+    {
+      id: 1,
+      name: "AE",
+      description: "Lorem plenty words go here",
+      img: "/AE.jpg",
+      price: 100
+    },
+  
+    {
+      id: 2,
+      name: "iCell",
+      description: "Lorem plenty words go here",
+      img: "/icell.jpg",
+      price: 100
+    },
+  
+  
+    {
+      id: 3,
+      name: "Mulitu Power",
+      description: "Lorem plenty words go here",
+      img: "/mulitu-power1.jpg",
+      price: 100
+    },
+  
+    {
+      id: 4,
+      name: "Outback Inverter",
+      description: "Lorem plenty words go here",
+      img: "/outback-inverter.jpg",
+      price: 100
+    },
+  
+  
+    {
+      id: 5,
+      name: "Outback Inverter",
+      description: "Lorem plenty words go here",
+      img: "/outback2.jpg",
+      price: 100
+    },
+
+    {
+      id: 6,
+      name: "XW3",
+      description: "Lorem plenty words go here",
+      img: "/XW3.png",
+      price: 100
+    },
+
+    {
+      id: 7,
+      name: "Sukam2",
+      description: "Lorem plenty words go here",
+      img: "/sukam2.jpg",
+      price: 100
+    },
+
+    {
+      id: 8,
+      name: "TBB",
+      description: "Lorem plenty words go here",
+      img: "/tbb2.jpg",
+      price: 100
+    },
+
+    {
+      id: 9,
+      name: "XW#3-2",
+      description: "Orange are orange",
+      img: "/XW3.png",
+      price: 100
+    }
+  
+  ];
   return (
     <>
       <Head>
@@ -46,7 +123,11 @@ export default function Dashboardpage() {
 
         <div className={styles.body}>
           <h2>Store</h2>
-          <Storepage />
+          <div className={styles.storebody}>
+          {
+          products.map(p => <Storepage key={p.id} {...p} />)
+          }
+          </div>
         </div>
       </div>
     </>

@@ -75,7 +75,7 @@ export default function Login() {
             </div>
             <br />
             <div>
-            <label className={styles.label}>lastname</label> <br></br>
+            <label className={styles.label}>Lastname</label> <br></br>
             <input
               className={styles.input}
               placeholder="lastname"
@@ -94,7 +94,9 @@ export default function Login() {
                 name="phoneNumber"
                 onChange={handleChange}
                 required
-                type="number"
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]*"
                 />
             </div>
             <br />

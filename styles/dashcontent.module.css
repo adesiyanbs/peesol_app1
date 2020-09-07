@@ -58,6 +58,46 @@
 .cardp{
     margin-top: -20px;
 }
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 359px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-right: 130px ; */
+        text-align: center;
+    }
+    .card{
+        /* margin-left: -30px; */
+        /* margin-right: 90px; */
+        width:200px;
+    }
+    .topctnh2{
+        color: #142575; 
+        margin-right: 40px;
+        font-size: 14px;
+    /* margin-left: 20px; */
+    }
+    .topctnp{
+        /* margin-left: 20px; */
+       font-size: 11px;
+        margin-right: 40px;
+    }
+    .img{
+       
+        margin-left: 20px ;
+        margin-right: 20px;
+    }
+    .button{
+        position: relative;
+        top: 10px;
+        width: 100px;
+        
+    }
+}    
 @media only screen 
 and (min-device-width: 360px)
 and (max-device-width: 921px)

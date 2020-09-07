@@ -75,7 +75,37 @@
 .red{
     color: #D0322E;
 }
-
+@media only screen 
+and (min-device-width:320px)
+and (max-device-width: 359px)
+and (-webkit-min-device-pixel-ratio: 2){
+ .top{
+     width: 310px;
+ }   
+ .btndiv{
+    width: 305px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 230px;
+}
+.mission{
+    width: 310px;
+    /* position: r,elative; */
+    /* left: 20px; */
+}
+.product{
+    margin-top: 460px;
+    width: 310px;
+}
+.productcard{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.productcards{
+    margin: auto;
+    margin-bottom: 50px;
+}
+}
 @media only screen 
 and (min-device-width: 360px)
 and (-webkit-min-device-pixel-ratio: 2){
