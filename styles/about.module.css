@@ -103,7 +103,8 @@
 @media only screen 
 and (min-device-width: 320px)
 and (max-device-width: 359px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
     .overview{
         display: block;
         width: 310px;
@@ -129,7 +130,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media only screen 
 and (min-device-width: 360px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
 
     .overview{
         display: flex;
@@ -160,7 +162,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen 
 and (min-device-width: 417px)
 and (max-device-width: 1200px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
     .overview{
         display: flex;
         justify-content: space-around;

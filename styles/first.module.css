@@ -78,7 +78,8 @@
 @media only screen 
 and (min-device-width:320px)
 and (max-device-width: 359px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
  .top{
      width: 310px;
  }   
@@ -108,7 +109,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media only screen 
 and (min-device-width: 360px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
 
     .top{
         width: 360px;
@@ -146,7 +148,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen 
 and (min-device-width: 415px)
 and (max-device-width: 1400px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
     .btndiv{
         width: 375px;
         /* border: 1px solid blue; */
@@ -158,7 +161,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen 
 and (min-device-width: 720px)
 /* and (max-device-width: 800px) */
-and (-webkit-min-device-pixel-ratio: 1){
+/* and (-webkit-min-device-pixel-ratio: 1) */
+{
     .mission{
         width: 360px;
         position: relative;
