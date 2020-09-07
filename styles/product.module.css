@@ -56,7 +56,8 @@
 @media only screen 
 and (min-device-width: 320px)
 and (max-device-width: 359px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
     .card{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -75,7 +76,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen 
 and (min-device-width: 360px)
 and (max-device-width: 663px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
     .card{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -84,7 +86,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media only screen 
 and (min-device-width: 664px)
 and (max-device-width: 1025px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 1) */
+{
     .card{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

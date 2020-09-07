@@ -154,3 +154,27 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin-top: 130px;
     }
 }
+
+@media only screen 
+and (min-device-width: 720px)
+/* and (max-device-width: 800px) */
+and (-webkit-min-device-pixel-ratio: 1){
+    .mission{
+        width: 360px;
+        position: relative;
+        /* left: 20px; */
+    }
+    .product{
+        margin-top: 360px;
+        width: 360px;
+    }
+    .productcard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .productcards{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+}
