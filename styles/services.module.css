@@ -67,7 +67,8 @@ and (max-device-width: 359px)
 }
 @media only screen 
 and (max-device-width: 1026px)
-and (-webkit-min-device-pixel-ratio: 2){
+/* and (-webkit-min-device-pixel-ratio: 2) */
+{
 
     /* .servicesmid{
         display: block;
