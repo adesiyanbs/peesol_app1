@@ -95,11 +95,11 @@ and (max-device-width: 359px)
     }
 }
 @media only screen 
-and (min-device-width: 360px)
+and (max-device-width: 1026px)
 and (-webkit-min-device-pixel-ratio: 2)
 {
     .address{
-        width: 360px;
+        width: 100%;
     }
     .contact{
         display:block;
