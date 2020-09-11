@@ -1,13 +1,13 @@
-export default function Profilepage(){
+export default function Profilepage({id,firstName,lastName, email, phoneNumber}){
     return(
         <>  
             <h1>Profile</h1>
 
-            <div>
-                <h4>Firstname: Chief</h4>
-                <h4>Lastname: Chief</h4>
-                <h4>Phonenumber: 00000000</h4>
-                <h4>chief@gmail.com</h4>
+            <div id={id}>
+                <h4>Firstname: {firstName}</h4>
+                <h4>Lastname: {lastName}</h4>
+                <h4>Phonenumber: {phoneNumber}</h4>
+                <h4>Email: {email}</h4>
             </div>
         </>
     )

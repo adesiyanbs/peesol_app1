@@ -10,7 +10,8 @@ export default function Footer(){
                         <div className={styles.footertoph2}>
                             <h2>Ready To Do <br></br> Business?</h2>
                         </div>
-                        <button className={styles.footertopbtn}>Get In Touch</button>
+                        <Link href="/contact"><a><button className={styles.footertopbtn}>Get In Touch</button></a></Link>
+                       
                     </div>
                 </div>
                 <div>

@@ -8,7 +8,7 @@ export default function Dashcontent(){
                     <p className={styles.topctnp}>Welcome Chief</p>
                 </div>
                 <div>
-                    <button className={styles.button}>Manage Cards</button>
+                    {/* <button className={styles.button}>Manage Cards</button> */}
                 </div>
             </div>
             <div className={styles.cards}>

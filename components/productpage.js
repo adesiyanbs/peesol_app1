@@ -10,7 +10,7 @@ export default function Productpage() {
               <img className={styles.img} src="/icell.jpg" alt="icell" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Inverter iCell</h2>
+              <h2 className={styles.textdivh2}>Inverter iCell</h2>
               
              
             </div>
@@ -20,7 +20,7 @@ export default function Productpage() {
               <img className={styles.img} src="/AE.jpg" alt="AE" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>AE</h2>
               
               
             </div>
@@ -30,7 +30,7 @@ export default function Productpage() {
               <img className={styles.img} src="/XW3.png" alt="XW3" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>XW3-1</h2>
               
               
             </div>
@@ -40,7 +40,7 @@ export default function Productpage() {
               <img className={styles.img} src="/sukam2.jpg" alt="sukam2" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>Sukam 2</h2>
               
               
             </div>
@@ -54,7 +54,7 @@ export default function Productpage() {
               />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>Mulitu Power</h2>
               
               
             </div>
@@ -64,7 +64,7 @@ export default function Productpage() {
               <img className={styles.img} src="/outback2.jpg" alt="outback2" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>Outback</h2>
              
               
             </div>
@@ -78,7 +78,7 @@ export default function Productpage() {
               />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>Outback Inverter</h2>
               
               
             </div>
@@ -88,7 +88,7 @@ export default function Productpage() {
               <img className={styles.img} src="/XW3.png" alt="XW3" />
             </div>
             <div className={styles.textdiv}>
-              <h2>Name Of Product</h2>
+              <h2 className={styles.textdivh2}>XW3-2</h2>
               
               
             </div>

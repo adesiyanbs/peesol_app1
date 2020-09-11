@@ -43,20 +43,20 @@ export default function Firstpage() {
           </h2>
           <div className={styles.productcard}>
             <div className={styles.productcards}>
-              <img src="" alt="" />
-              <h2>Birthday</h2>
+              <img className={styles.img} src="/XW3.png" alt="XW3" />
+              <h2 className={styles.textdivh2}>XW3</h2>
             </div>
             <div className={styles.productcards}>
-              <img src="" alt="" />
-              <h2>Birthday</h2>
+              <img className={styles.img} src="/icell.jpg" alt="icell" />
+              <h2 className={styles.textdivh2}>iCell</h2>
             </div>
             <div className={styles.productcards}>
-              <img src="" alt="" />
-              <h2>Birthday</h2>
+              <img className={styles.img} src="/sukam2.jpg" alt="sukam" />
+              <h2 >Sukam 2</h2>
             </div>
             <div className={styles.productcards}>
-              <img src="" alt="" />
-              <h2>Birthday</h2>
+              <img className={styles.img} src="/mulitu-power1.jpg" alt="mulitupower" />
+              <h2 >Mulitu Power</h2>
             </div>
           </div>
         </div>

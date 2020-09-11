@@ -1,33 +1,45 @@
 // import fetch from 'isomorphic-unfetch'
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 import styles from "../../../styles/register.module.css";
 import Head from 'next/head'
 import Link from 'next/link'
-export default function Login() {
+import Profile from "../account/profile";
+import Profilepage from "../../../components/profilepage";
+import  Router  from "next/router";
+export default function Register() {
         const [user, setUser] = useState({
+          id:"",
           firstName:"",
           lastName:"",
           email: "",
           password: "",
           phoneNumber:"" 
         });
+        // {
+          
+        //     useState.map(u => <Profilepage key={u.id} {...u} />)
+            
+        // }
         const handleChange = (e) => setUser({ 
             ...user, [e.target.name]: e.target.value
             });
-
+        // const history = useHistory();
         const handleSubmit = async (e) => {
             e.preventDefault();
             console.log("hey");
-            try {
-            console.log("heyd");
+      try {
+              console.log("heyd");
 
       const res = await fetch(
-        "https://schon-api.herokuapp.com/user/auth/login",
+        "https://schon-api.herokuapp.com/user/auth/register",
         {
           method: "POST",
           body: JSON.stringify(user),
           headers: { "Content-Type": "application/json" },
+          
         }
+        
       );
       console.log("heyjson");
 
@@ -40,6 +52,15 @@ export default function Login() {
       //you can get the token this way
       console.log(localStorage.getItem("token"));
       console.log(json);
+      console.log(json.status);
+      if(json.status === true){
+        Router.push("/user/auth/login")
+        alert("Registration successful Enter Login details!")
+      }
+      else{
+        console.log("you idiot");
+      }
+      
     } catch (e) {
       console.log("An error occurred", e);
     }
@@ -47,7 +68,8 @@ export default function Login() {
 
   return (
       
-    <div className={styles.container}>
+   <div className={styles.entirecontainer}>
+      <div className={styles.container}>
             <Head>
                 <title>Schon Peesol Energy | Solar Company</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -57,7 +79,7 @@ export default function Login() {
       </h1>
       <div className={styles.formcontainer}>
         <form
-          action="https://schon-api.herokuapp.com/user/account/profile/1"
+          action="https://schon-api.herokuapp.com/user/account/profile"
           method="get"
           onSubmit={handleSubmit}
           className={styles.form}
@@ -95,7 +117,7 @@ export default function Login() {
                 onChange={handleChange}
                 required
                 type="text"
-                inputmode="numeric"
+                inputMode="numeric"
                 pattern="[0-9]*"
                 />
             </div>
@@ -124,7 +146,7 @@ export default function Login() {
               type="password"
             />
           </div>
-          <button className={styles.button}>Log In</button>
+          <button className={styles.button}>Register</button>
         </form>
         {/* <h5 className={styles.h5}>Forgot Password? Click Here</h5> */}
       </div>
@@ -133,6 +155,12 @@ export default function Login() {
            Have an account? <Link href="/user/auth/login"><a><b className={styles.blue}>Login</b></a></Link>
         </h4>
       </div>
+      {/* {
+          
+          user.map(u => <Profilepage key={u.id} {...u} />)
+          }
+           */}
     </div>
+   </div>
   );
 }

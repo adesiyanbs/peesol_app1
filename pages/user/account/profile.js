@@ -4,6 +4,28 @@ import Profilepage from "../../../components/profilepage";
 import Head from "next/head";
 
 export default function Profile() {
+  // const [user, setUser] = useState({
+  //   id:"",
+  //   firstName:"",
+  //   lastName:"",
+  //   email: "",
+  //   phoneNumber:"" 
+  // });
+  // const res = await fetch(
+  //   "https://schon-api.herokuapp.com/user/account/profile/id",
+  //   {
+  //     method: "GET",
+  //     body: JSON.stringify(user),
+  //     headers: { 
+  //     'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJpYXQiOjE1OTkwOTU1NTQsImV4cCI6MTU5OTA5OTE1NH0.rF89AuN7Dv6FQN85meKWItLjROzS5lYNHtyl5aW2bdk'
+  //  },
+      
+  //   }
+    
+  // );
+  // console.log("heyjson");
+
+  // const json = await res.json();
   return (
     <>
       <Head>

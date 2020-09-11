@@ -1,41 +1,63 @@
 .card{
-    /* display: grid;
-    /* grid-template-columns: repeat(1, 1fr); */ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
     text-align: center;
+    
+    margin-left: -30px;
+    width: 100%;
+    /* color: red; */
+    /* border: 1px solid red; */
+    box-sizing: border-box;
 }
 
 .cards{
     width: 300px;
+    height: 250px;
     /* height */
     /* height: 500px; */
-    /* background:; */
+    background:#142575;
     /* border: 1px solid blue; */
-    margin-bottom: 20px;
-   
+    margin-bottom: 30px;
+    margin-top: 40px;
+   box-shadow: 3px 3px 3px 5px rgba(0,0,0,0.1);
+   border-radius: 3px;
+   color: white;
+   /* margin-left: -0.5%; */
 }
 
 .imgdiv{
-    margin-top: 20px;
+    /* margin-top: 80%; */
+    background: white;
     width: 300px;
-    height: 300px;
+    height: 200px;
     /* border:1px solid #142575; */
+    padding-top: 10px;
     /* height: 200px; */
     /* border/: 1px solid black; */
     
 
 }
 .img{
-    width: 90%;
-    /* border:1px solid #142575; */
+    width: 60%;
+    /* margin-bottom: 20px; */
 }
-
 .textdiv{
     /* margin-top: 30px; */
-    border-radius: 4px;
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
-    border-top:1px solid #142575;
+    border-radius: 2px;
+    /* box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3); */
+    /* border-top:1px solid #142575; */
+    border-bottom:1px solid #142575;
+    text-align: center;
+    /* margin-left: 200px; */
+    margin-bottom: 10px;
+    /* margin-top: 50px; */
+    height: 30px;
+    /* align-content: center; */
+    /* padding-bottom: 30px; */
 }
-
+.h2{
+    line-height: 12px;
+}
 
 .button{
     width: 150px;
@@ -51,7 +73,9 @@
 }
 
 .container{
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    width: 100%;
+    /* border: 1px solid yellow; */
     
 }
 
@@ -80,7 +104,7 @@ and (max-device-width: 1025px)
 and (-webkit-min-device-pixel-ratio: 2){
     .card{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 @media only screen 
@@ -97,10 +121,19 @@ and (-webkit-min-device-pixel-ratio: 2){
     } */
     .cards{
         width: 230px;
-        margin-left: -30px;
+        margin-left: 90px;
         margin-right: 50px;
     }
     .imgdiv{
         width: 230px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 720px){
+    .cards{
+       
+        margin-left: 130px ;
+        text-align: center;
     }
 }

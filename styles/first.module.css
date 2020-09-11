@@ -7,7 +7,13 @@
     margin-top: 100px;
     color: #142575;
 }
-
+.img{
+    width: 80%;
+}
+.textdivh2{
+    margin-top: -25px;
+    color: #142575;
+}
 .toph2{
     font-size: 50px;
     font-weight: 900;
@@ -27,6 +33,7 @@
     border: none;
     cursor: pointer;
     outline: none;
+    font-family:  'Poppins', sans-serif;
 }
 .contactbtn{
     width: 156px;
@@ -38,6 +45,7 @@
     box-shadow: 3px 3px rgba(0,0,0,0.1);
     cursor: pointer;
     outline: none;
+    font-family:  'Poppins', sans-serif;
 }
 
 
@@ -62,15 +70,17 @@
     width: 1241px;
     margin: auto;
     margin-bottom: 20px;
+    color: #142575;
 }
 .productcard{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 .productcards{
-    background: #FAFAFA;
-    width: 270px;
-    height: 436px;
+    /* background: #FAFAFA; */
+    width: 250px;
+    height: 236px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
 }
 .red{
     color: #D0322E;
@@ -146,3 +156,37 @@ and (max-device-width: 1025px)
 }
 
 
+@media only screen 
+and (min-device-width: 720px){
+    .top{
+        width: 560px;
+        /* overflow: hidden; */
+    }
+
+    .btndiv{
+        width: 375px;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .mission{
+        width: 560px;
+        position: relative;
+        /* left: 20px; */
+    }
+
+    .product{
+        margin-top: 360px;
+        width: 360px;
+    }
+    .productcard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -80px;
+    }
+    .productcards{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}

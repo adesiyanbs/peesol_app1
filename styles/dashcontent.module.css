@@ -100,7 +100,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 }    
 @media only screen 
 and (min-device-width: 360px)
-and (max-device-width: 921px)
+and (max-device-width: 1026px)
 and (-webkit-min-device-pixel-ratio: 2){
     .cards{
         display: grid;
@@ -111,6 +111,28 @@ and (-webkit-min-device-pixel-ratio: 2){
     .card{
         /* margin-left: -30px; */
         /* margin-right: 90px; */
-        width:300px;
+        width:260px;
+    }
+    /* .topctnh2{
+        color: #142575; 
+        margin-right: 40px;
+        font-size: 14px;
+    /* margin-left: 20px; */
+    
+    .button{
+        position: relative;
+        /* top: 10px; */
+        width: 100px;
+        
+    }
+}
+
+@media only screen 
+and (min-device-width: 720px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-right: 130px ; */
+        text-align: center;
     }
 }
