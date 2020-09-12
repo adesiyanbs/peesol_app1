@@ -17,6 +17,7 @@ export default function Register() {
         password: "",
         phoneNumber: ""
     });
+
     // {
 
     //     useState.map(u => <Profilepage key={u.id} {...u} />)
@@ -54,11 +55,14 @@ export default function Register() {
                     json.data.token
                 );
                 console.log(localStorage.getItem("token"));
-
-                Router.push("/user/auth/login")
+                localStorage.setItem('email', json.data.user.email)
+                localStorage.setItem('id', json.data.user.id)
+                console.log(localStorage.getItem('id'))
+                Router.push("/user/account/dashboard")
                 alert("Registration successful Enter Login details!")
             } else {
                 console.log("you idiot");
+                enqueueSnackbar('I love hooks');
             }
 
         } catch (e) {

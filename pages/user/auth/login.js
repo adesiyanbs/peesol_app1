@@ -38,14 +38,17 @@ export default function Login() {
 
       const json = await res.json();
       //this example here is how you will save the token in the browser for later useage
-      localStorage.setItem(
-        "token", ""
-      );
+
       //you can get the token this way
-      console.log(localStorage.getItem("token"));
       console.log(json);
       console.log(json.status)
       if(json.status === true){
+        localStorage.setItem(
+            "token", json.data.token
+        );
+        localStorage.setItem('email', json.data.user.email)
+        localStorage.setItem('id', json.data.user.id)
+        console.log(localStorage.getItem("token"));
         Router.push("/user/account/dashboard")
       }
       else{
