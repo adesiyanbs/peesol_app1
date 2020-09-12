@@ -62,7 +62,6 @@ export default function Register() {
                 alert("Registration successful Enter Login details!")
             } else {
                 console.log("you idiot");
-                enqueueSnackbar('I love hooks');
             }
 
         } catch (e) {
@@ -161,11 +160,6 @@ export default function Register() {
                         className={styles.blue}>Login</b></a></Link>
                     </h4>
                 </div>
-                {/* {
-
-          user.map(u => <Profilepage key={u.id} {...u} />)
-          }
-           */}
             </div>
         </div>
     );
