@@ -21,7 +21,7 @@ export default function Login() {
     console.log("hey");
     try {
       console.log("heyd");
-     
+
 
       const res = await fetch(
         "https://schon-api.herokuapp.com/user/auth/login",
@@ -29,18 +29,17 @@ export default function Login() {
           method: "POST",
           body: JSON.stringify(user),
           headers: { "Content-Type": "application/json" },
-          
+
         }
-        
+
       );
-      
+
       console.log("heyjson");
 
       const json = await res.json();
       //this example here is how you will save the token in the browser for later useage
       localStorage.setItem(
-        "token",
-        " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJpYXQiOjE1OTkwOTU1NTQsImV4cCI6MTU5OTA5OTE1NH0.rF89AuN7Dv6FQN85meKWItLjROzS5lYNHtyl5aW2bdk"
+        "token", ""
       );
       //you can get the token this way
       console.log(localStorage.getItem("token"));
@@ -52,7 +51,7 @@ export default function Login() {
       else{
         console.log("you idiot");
       }
-      
+
     } catch (e) {
       console.log("An error occurred", e);
     }
